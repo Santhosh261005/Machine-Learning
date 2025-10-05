@@ -1,0 +1,4 @@
+model,baseline_cv_acc_mean,baseline_cv_acc_std,baseline_cv_f1_mean,baseline_cv_f1_std,tuned_cv_f1_mean,tuned_params,test_accuracy,test_f1_macro
+bagging,0.95,0.0311804782231162,0.9494055399937753,0.03172953563462674,0.9663367569249923,"{""clf__max_features"": 0.8, ""clf__max_samples"": 0.6, ""clf__n_estimators"": 50}",0.9666666666666667,0.9665831244778612
+random_forest,0.95,0.0311804782231162,0.9494055399937753,0.03172953563462674,0.9579707438530969,"{""clf__max_depth"": null, ""clf__max_features"": ""sqrt"", ""clf__n_estimators"": 50}",0.9,0.899749373433584
+adaboost,0.9333333333333333,0.020412414523193187,0.9327388733271086,0.02076999139365902,0.9747027699968877,"{""clf__learning_rate"": 0.1, ""clf__n_estimators"": 100}",0.9666666666666667,0.9665831244778612
